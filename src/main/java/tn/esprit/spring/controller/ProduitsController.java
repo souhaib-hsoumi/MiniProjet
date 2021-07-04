@@ -63,6 +63,7 @@ public class ProduitsController {
 	public void deleteCategorieById(@PathVariable("prod-id") long idp) {
 		Produits e =prod.findById(idp).orElse(null);
 		 if (e != null) {
+
 		prod.delete(e);	
 	}}
 	
