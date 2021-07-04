@@ -9,16 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import com.fasterxml.jackson.annotation.JsonFormat;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 import tn.esprit.spring.entites.Produits;
 
-
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class CategoriesDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
