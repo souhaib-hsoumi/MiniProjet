@@ -77,7 +77,6 @@ public class ProduitsController {
 		Optional<Produits> x=prod.findById(idp);
 		if (x.isPresent()){
 		Produits ca=x.get();
-
 		if (ca != null){
 		ca.setNom(p.getNom());
 		ca.setQt(p.getQt());
