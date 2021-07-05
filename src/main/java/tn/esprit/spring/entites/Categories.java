@@ -35,6 +35,7 @@ public class Categories implements Serializable {
 		return "Categories [id=" + id + ", nom=" + nom + ", qt=" + qt + ", date_creation=" + datecreation
 				+ ", date_mmodif=" + datemmodif + ", list_produits=" + listProduits + "]";
 	}
+
 	public long getId() {
 		return id;
 	}
