@@ -1,0 +1,14 @@
+tn\esprit\spring\repository\ProduitRepository.class
+tn\esprit\spring\service\ProduitService.class
+tn\esprit\spring\conf\Config.class
+tn\esprit\spring\entites\Produits.class
+tn\esprit\spring\repository\CategorieRepository.class
+tn\esprit\spring\service\ICategorie.class
+tn\esprit\spring\service\IProduit.class
+tn\esprit\spring\controller\CategoriesController.class
+tn\esprit\spring\dto\CategoriesDTO.class
+tn\esprit\spring\entites\Categories.class
+tn\esprit\spring\controller\ProduitsController.class
+tn\esprit\spring\MiniProjetApplication.class
+tn\esprit\spring\service\CategorieService.class
+tn\esprit\spring\dto\ProduitsDTO.class
