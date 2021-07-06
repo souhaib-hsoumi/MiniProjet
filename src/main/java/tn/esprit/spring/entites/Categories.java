@@ -26,7 +26,6 @@ public class Categories implements Serializable {
 	
 	@JsonFormat(pattern="yyyy-MM-dd")
 	private Timestamp datemmodif ;
-	
 	@OneToMany(mappedBy="categories", cascade = CascadeType.REMOVE)
 	private List<Produits> listProduits;
 	@Override
