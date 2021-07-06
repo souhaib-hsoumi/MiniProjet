@@ -21,7 +21,6 @@ public class Categories implements Serializable {
 	
 	private String nom;
 	private int qt ;
-	
 	@Column(nullable = false)
     private Timestamp datecreation;
 	
