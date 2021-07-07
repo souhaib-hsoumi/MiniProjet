@@ -64,9 +64,9 @@ public class CategoriesController {
 		c.setNom(categ.getNom());
 		c.setQt(categ.getQt());
 		c.setDatemmodif(Timestamp.valueOf(LocalDateTime.now()));
-		cat.saveE(c);
+		cat.save(c);
 		cw.getId();
-		}   }
+		}
 		return new ResponseEntity<>("categorieupdated successfully",HttpStatus.OK);
 		
 		}
