@@ -54,7 +54,9 @@ public class CategoriesController {
 	  	@ResponseBody
 	  	public ResponseEntity<String> updateCategory(
 	  		@RequestBody CategoriesDTO categ,@PathVariable("idCat")long idCat) {
-		
+
+
+
 		Categories cw  = mapper.map(categ, Categories.class);
 		if (idCat != 0){
 		Categories c = cat.findById(idCat).orElse(null);
@@ -62,7 +64,7 @@ public class CategoriesController {
 		c.setNom(categ.getNom());
 		c.setQt(categ.getQt());
 		c.setDatemmodif(Timestamp.valueOf(LocalDateTime.now()));
-		cat.save(c);
+		cat.saveE(c);
 		cw.getId();
 		}   }
 		return new ResponseEntity<>("categorieupdated successfully",HttpStatus.OK);
