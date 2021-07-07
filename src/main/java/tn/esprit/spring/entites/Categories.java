@@ -22,7 +22,7 @@ public class Categories implements Serializable {
 	private String nom;
 	private int qt ;
 	@Column(nullable = false)
-    private Timestamp datecreation;
+    private Timestmp datecreation;
 	
 	@JsonFormat(pattern="yyyy-MM-dd")
 	private Timestamp datemmodif ;
