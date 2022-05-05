@@ -22,7 +22,7 @@ public class CategoriesDTO implements Serializable {
 	private int qt ;
 	
 	@Column(nullable = false)
-    private Timestam datecreation;
+    private Timestamp datecreation;
 	
 	@JsonFormat(pattern="yyyy-MM-dd")
 	private Timestamp datemmodif ;

@@ -66,12 +66,12 @@ public class CategoriesController {
 		c.setDatemmodif(Timestamp.valueOf(LocalDateTime.now()));
 		cat.save(c);
 		cw.getId();
-		}
+		}}
 
 		return new ResponseEntity<>("categorieupdated successfully",HttpStatus.OK);
 		
 		}
-		tttt
+
 	 @GetMapping("/getCategoryById/{idcat}")
 	    @ResponseBody
 		public Categories getCategoryById(@PathVariable("idcat") long catId) {
