@@ -113,6 +113,7 @@ public class Categories implements Serializable {
 		this.nom = nom;
 		this.datecreation = datecreation;
 	}
+	
 	public Categories(String nom, int qt, Timestamp datemmodif) {
 		super();
 		this.nom = nom;
