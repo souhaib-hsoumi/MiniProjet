@@ -120,6 +120,4 @@ public class Categories implements Serializable {
 		this.qt = qt;
 		this.datemmodif = datemmodif;
 	}
-	
-
 }
